@@ -10,4 +10,4 @@ LBScanView *scanView = [[LBScanView alloc] initWithFrame:self.view.bounds scanBo
 [self.view addSubview:scanView];
 ```
 
-![](https://github.com/A1129434577/LBRichTextView/blob/master/LBRichTextView.gif?raw=true)
+![](https://github.com/A1129434577/LBScanView/blob/master/LBScanView.jpeg?raw=true)

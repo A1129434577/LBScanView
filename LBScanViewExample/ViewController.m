@@ -21,6 +21,9 @@
     LBScanView *scanView = [[LBScanView alloc] initWithFrame:self.view.bounds scanBoxFrame:CGRectMake((CGRectGetWidth(self.view.frame)-250)/2, (CGRectGetHeight(self.view.frame)-250)/2, 250, 250) failure:^(NSError * _Nonnull error) {
         NSLog(@"%@",error.localizedDescription);
     }];
+//    scanView.coverLayer = ;
+//    scanView.scanBoxBorderLayer = ;
+//    scanView.scanAnimationLayer = ;
     [self.view addSubview:scanView];
 }
 

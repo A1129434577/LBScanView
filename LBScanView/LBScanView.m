@@ -279,6 +279,9 @@
                 completion():NULL;
             });
         });
+    }else{
+        completion?
+        completion():NULL;
     }
     
 }

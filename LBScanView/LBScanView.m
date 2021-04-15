@@ -95,6 +95,7 @@
                 cornersLayer.lineWidth = scanBoxBorderLayer.lineWidth*2;
                 cornersLayer.fillColor = scanBoxBorderLayer.fillColor;
                 cornersLayer.strokeColor = scanBoxBorderLayer.strokeColor;
+                self.cornersLayer = cornersLayer;
                 
                 CGRect cornersPathRect = CGRectMake(cornersLayer.lineWidth/2, cornersLayer.lineWidth/2, CGRectGetWidth(boxFrame)-cornersLayer.lineWidth, CGRectGetHeight(boxFrame)-cornersLayer.lineWidth);
                 

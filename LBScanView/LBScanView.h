@@ -17,8 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) AVCaptureOutput         *photoOutput;
 
 @property (nonatomic, strong, readwrite) CALayer *coverLayer;
-@property (nonatomic, strong, readwrite) CALayer *scanBoxBorderLayer;
-@property (nonatomic, strong, readwrite) CALayer *scanAnimationLayer;
+@property (nonatomic, strong, readwrite) CAShapeLayer *scanBoxBorderLayer;
+@property (nonatomic, strong, readwrite) CAShapeLayer *cornersLayer;
+@property (nonatomic, strong, readwrite) CAGradientLayer *scanAnimationLayer;
 
 @property (nonatomic, assign) BOOL getImageWhenScanFinished;//扫描成功后需要获取图片
 
